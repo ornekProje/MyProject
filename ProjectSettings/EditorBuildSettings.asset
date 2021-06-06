@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: "Assets/Scenes/Aray\xFCz.unity"
+    guid: c8fbfe83af07f684db6c7890fe223bf6
+  - enabled: 1
+    path: "Assets/Scenes/B\xF6l\xFCm1.unity"
+    guid: 4749c154d488b6b4e9652df45699e742
+  - enabled: 1
+    path: "Assets/Scenes/B\xF6l\xFCm2.unity"
+    guid: 6d44ee423960cb74b8716a118a0ea26c
+  - enabled: 1
+    path: "Assets/Scenes/B\xF6l\xFCm3.unity"
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

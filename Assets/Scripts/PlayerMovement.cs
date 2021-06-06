@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -75,7 +76,7 @@ public class PlayerMovement : MonoBehaviour
         RaycastHit Kapi;
         if (Input.GetKeyDown(KeyCode.F) && Physics.Raycast(gameObject.transform.position, PlayerCam.transform.forward, out Kapi, 5f) && Kapi.transform.tag == "Kapi" && didGetAKey == true)
         {
-            Destroy(Kapi.collider.gameObject);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
             didGetAKey = false;
         }
 
