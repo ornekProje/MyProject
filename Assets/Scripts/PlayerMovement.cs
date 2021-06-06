@@ -77,6 +77,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F) && Physics.Raycast(gameObject.transform.position, PlayerCam.transform.forward, out Kapi, 5f) && Kapi.transform.tag == "Kapi" && didGetAKey == true)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
+            Cursor.lockState = CursorLockMode.None;
             didGetAKey = false;
         }
 
